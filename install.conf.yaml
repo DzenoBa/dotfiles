@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.Brewfile: config/homebrew/Brewfile
+    ~/.editorconfig: config/editorconfig/editorconfig
+    ~/.gitconfig: config/git/gitconfig
+    ~/.vimrc: config/vim/vimrc
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]

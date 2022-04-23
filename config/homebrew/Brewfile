@@ -1,0 +1,34 @@
+# To keep this file in sync avoid using `brew install` command to install,
+# instead add the formulae to this file and run `brew bundle --global`.
+
+# https://github.com/Homebrew/homebrew-bundle
+# Always run 'brew update' before running `brew bundle`
+
+tap "homebrew/bundle"
+tap "homebrew/cask"
+
+# Formulae
+
+brew "adr-tools"
+brew "awscli"
+brew "git-remote-codecommit"
+brew "node"
+
+# Casks (https://formulae.brew.sh/cask/)
+
+cask "drawio", greedy: true
+cask "firefox", greedy: true
+cask "fork", greedy: true
+cask "iterm2"
+cask "insomnia", greedy: true
+cask "macpass"
+cask "microsoft-teams", greedy: true
+cask "mullvadvpn"
+cask "rectangle"
+cask "spotify", greedy: true
+cask "steam"
+cask "visual-studio-code", greedy: true
+
+# Mac Apple Store
+
+mas "Slack", id: 803453959

@@ -1,0 +1,13 @@
+syntax on
+
+set number
+set shiftwidth=4
+set tabstop=4
+" Use space characters instead of tabs.
+set expandtab
+set nobackup
+" While searching though a file incrementally highlight matching characters as you type.
+set incsearch
+
+set colorcolumn=80
+highlight ColorColumn ctermbg=darkgrey
