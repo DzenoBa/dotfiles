@@ -1,5 +1,5 @@
-[include]
-    path = ~/.gitconfig.local
 [user]
     name = DzenoBa
     email = DzenoBa@users.noreply.github.com
+[include]
+    path = ~/.gitconfig.local
