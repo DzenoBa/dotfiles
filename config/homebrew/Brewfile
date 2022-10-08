@@ -2,33 +2,38 @@
 # instead add the formulae to this file and run `brew bundle --global`.
 
 # https://github.com/Homebrew/homebrew-bundle
-# Always run 'brew update' before running `brew bundle`
+# Always run `brew update` before running `brew bundle`
 
 tap "homebrew/bundle"
 tap "homebrew/cask"
 
 # Formulae
 
-brew "adr-tools"
-brew "awscli"
-brew "git-remote-codecommit"
-brew "node"
+brew "adr-tools"                # CLI tool for working with Architecture Decision Records
+brew "awscli"                   # Official Amazon AWS command-line interface
+brew "git-remote-codecommit"    # Git Remote Helper to interact with AWS CodeCommit
+brew "mas"                      # Mac App Store command-line interface
+brew "node"                     # Platform built on V8 to build network applications
+brew "nvm"                      # Manage multiple Node.js versions
+brew "python"
 
 # Casks (https://formulae.brew.sh/cask/)
 
-cask "drawio", greedy: true
-cask "firefox", greedy: true
-cask "fork", greedy: true
-cask "iterm2"
-cask "insomnia", greedy: true
-cask "macpass"
-cask "microsoft-teams", greedy: true
-cask "mullvadvpn"
-cask "rectangle"
-cask "spotify", greedy: true
-cask "steam"
-cask "visual-studio-code", greedy: true
+cask "drawio"                   # Draw.io is free online diagram software
+cask "firefox"                  # Web browser
+cask "fork"                     # GIT client
+cask "inkscape"                 # Vector graphics editor
+cask "insomnia"                 # HTTP and GraphQL Client
+cask "iterm2"                   # Terminal emulator as alternative to Apple's Terminal app
+cask "macpass"                  # Open-source, KeePass-client and password manager
+cask "microsoft-teams"          # Meet, chat, call, and collaborate in just one place
+cask "monitorcontrol"           # Tool to control external monitor brightness & volume
+cask "mullvadvpn"               # VPN client
+cask "rectangle"                # Move and resize windows using keyboard shortcuts or snap areas
+cask "spotify"                  # Music streaming service
+cask "steam"                    # Video game digital distribution service
+cask "visual-studio-code"       # Open-source code editor
 
-# Mac Apple Store
+# Mac App Store command-line interface
 
-mas "Slack", id: 803453959
+mas "Slack", id: 803453959      # Team communication and collaboration software
